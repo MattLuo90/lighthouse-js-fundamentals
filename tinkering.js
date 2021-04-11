@@ -1,4 +1,5 @@
-const director = "Steven Spielberg";
-const films = ["Jaws", "Raiders of the Lost Ark", "A.I."];
-films[2] = "Jurassic Park";
-console.log(films)
+const areMultiples  = function (bigNumber, smallNumber) {
+   return bigNumber % smallNumber === 0;
+ }
+ 
+ console.log(areMultiples(15, 4));
